@@ -13,6 +13,9 @@ MedQA is a pioneering free-form multiple-choice open-domain question answering d
 ## ParsBench-biomedical-RWCQ
 Real World Clinical Query (RWCQ) is a dataset of scenarios and cases (inpatient and outpatient). Each scenario consists of background information (description of the scenario or case), 5 real-world questions from a clinician (MD level), and a set of 4 answers provided by 4 independent MDs using references and validated guidelines. The dataset is available in both English and Persian. The reason for including 4 independent correct answers is to capture the relativity of answers in medical science. Future uses can employ LLM-based validation or embedding models to calculate the performance of LLMs on this dataset. The motivation behind this dataset is to (1) create real-world clinical queries at an MD-level physician standard, and (2) attempt to address the relativity in correct answers to these open questions.
 
+## ParsBench-biomedical-RWCR
+Real World Clinical Reasoning (RWCR) is a dataset of olympiad-style multiple-choice, point-based questions. Each question has more than 8 options, and options can be assigned +2, +1, 0, or -1 points. This dataset is derived from the Iranian Medical Students Olympiad - Clinical Reasoning section. We have validated, curated, and translated this dataset. The motivation behind this dataset is to address the limitations of single-best-answer type MCQs and their inability to consider correct, relatively correct, incorrect, and contradictory answers from an LLM.
+
 # Team of Contributors
 ...loading
 
@@ -45,7 +48,10 @@ Real World Clinical Query (RWCQ) is a dataset of scenarios and cases (inpatient 
     - [ ] Reza --> Mix
     - [ ] Elias --> Mix (ENT & Orthopedics)
     - [ ] Elham --> Case (Internal medicine)
+
+- [ ] My Team Tasks
     - [ ] Nariman --> building the streamlit app
-    
+    - [ ] Arian --> litreature review of (1) real-world clinical dataset (2) biomedical datasets in Persian
+    - [ ] Dorsa --> preparing the data paper
 
 </detail>
